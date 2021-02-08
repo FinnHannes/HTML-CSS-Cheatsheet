@@ -1,16 +1,41 @@
 html {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-table, th, td {
-    border: solid 1px darkslateblue;
+table {
+    border: solid 1px black;
     border-collapse: collapse;
-    text-align: left;
-    border-spacing: 8px;
+    width: 1400px;
+    margin: auto;
 }
+
+
 th {
-    background-color: lightslategray;
+    background-color: lightskyblue;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid;
 }
 td {
-    padding: 1em darkslateblue;
-    background-color: cornsilk;
+   background-color: cornsilk;
+    border: 1px solid;
+    text-align: left;
+    padding: 10px;
+  
+}
+p {
+    font-size: large; 
+}
+.tableTitel{
+    border-radius: 50px;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color:#ffe26d ;
+    font-size:larger    ;
+    font-weight: bold;
+}
+footer{
+    background-image: url(./Ressources/background.jpg);
 }
