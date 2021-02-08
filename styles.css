@@ -1,5 +1,16 @@
-.table {
-    padding: 1px;
-    border-collapse: separate; 
-    margin: auto;   
+html {
+    text-align: center;
+}
+table, th, td {
+    border: solid 1px darkslateblue;
+    border-collapse: collapse;
+    text-align: left;
+    border-spacing: 8px;
+}
+th {
+    background-color: lightslategray;
+}
+td {
+    padding: 1em darkslateblue;
+    background-color: cornsilk;
 }
